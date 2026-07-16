@@ -2,4 +2,7 @@ today i had to prepare for a frontend interview from loudinsight, so i had a lea
 
 1. I learnt about usecallback and usememo, usecallback and usememo are both used for caching but for caching, we can also use useRef, depending on what we wanna do. usememo is primarily used for storing a calculated value and usecallback is for caching a function. basically, both are memoization hooks. 
 
-2. for server and client side rendering, you can render hooks on a client side but not on server side, there are cases where you may wanna use apis consumption on a server side tho, in that case, assync await can be used on the server side. also, client side downloads JS then renders it while server side sends the HTML then hydrates.
+2. for server and client side rendering, you can render hooks on a client side but not on server side, there are cases where you may wanna use apis consumption on a server side tho, in that case, assync await can be used on the server side. also, client side downloads JS then renders it while server side sends the HTML then hydrates. If you need interactivity on a page, turn it to a client rendered.
+
+3. how to enhance a platform for professional coding practices? 
+i. implementing lazy loading for images and pages (api rendered) so that a pre loading can show while the user waits
