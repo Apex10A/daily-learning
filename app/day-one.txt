@@ -1,3 +1,3 @@
 today i had to prepare for a frontend interview from loudinsight, so i had a learn a few things which include :
 
-1. I learnt about usecallback and usememo, usecallback and usememo are both used for caching but for caching, we can also use useRef, depending on what we wanna do.
+1. I learnt about usecallback and usememo, usecallback and usememo are both used for caching but for caching, we can also use useRef, depending on what we wanna do. usememo is primarily used for storing a calculated value and usecallback is for caching a function. basically, both are memoization hooks. 
