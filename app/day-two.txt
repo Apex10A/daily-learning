@@ -4,3 +4,4 @@ so today i learnt about some few things, still related to the interview tho:
 Now the way to solve this is to use context api, here we can create everything into a page and each of the components imports it and uses it. this thereby makes things easy, maintainable and efficient.
 
 2. Also, i was working on my final year project, i added some features because some concerns were raised, first:
+i. how will users know that the image a lister uploaded for how the lodge looks like is real? well, its the burden o
