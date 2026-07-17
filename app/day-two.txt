@@ -1,3 +1,3 @@
 so today i learnt about some few things, still related to the interview tho:
 
-1. prop drilling is a problem in frontend next/react lol, really a problem. 
+1. prop drilling is a problem in frontend next/react lol, really a problem. so what it means is basically passing data from a parent component to a grandchild component passing through the father as well. Take for example, theres a Great Grandfather, Grandfather, father, son. the GG wanna pass some inheritance to the son, lol, but he cant pass it directly to him so he has to pass it to the GF, the GF pases it to the father and the father passes it to the son, thats hella stressful and not maintainable, yeah thats basically prop drilling. In technical terms,
