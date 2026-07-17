@@ -9,3 +9,4 @@ i. implementing lazy loading for images and pages (api rendered) so that a pre l
 ii. using testing libraries such as vitest, playwright, performing unit, e2e, integration tests before deploying.
 iii. implementing continous integration/continous deployment ci/cd.
 iv. reviewing and performing code reviews on pullrequests effectively before merging on github.
+
