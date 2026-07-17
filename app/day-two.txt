@@ -1,0 +1,3 @@
+so today i learnt about some few things, still related to the interview tho:
+
+1. prop drilling is a problem in frontend next/react lol, really a problem. 
