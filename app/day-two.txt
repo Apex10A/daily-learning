@@ -1,3 +1,6 @@
 so today i learnt about some few things, still related to the interview tho:
 
-1. prop drilling is a problem in frontend next/react lol, really a problem. so what it means is basically passing data from a parent component to a grandchild component passing through the father as well. Take for example, theres a Great Grandfather, Grandfather, father, son. the GG wanna pass some inheritance to the son, lol, but he cant pass it directly to him so he has to pass it to the GF, the GF pases it to the father and the father passes it to the son, thats hella stressful and not maintainable, yeah thats basically prop drilling. In technical terms,
+1. prop drilling is a problem in frontend next/react lol, really a problem. so what it means is basically passing data from a parent component to a grandchild component passing through the father as well. Take for example, theres a Great Grandfather, Grandfather, father, son. the GG wanna pass some inheritance to the son, lol, but he cant pass it directly to him so he has to pass it to the GF, the GF pases it to the father and the father passes it to the son, thats hella stressful and not maintainable, yeah thats basically prop drilling. In technical terms, we wanna work on a profile page that passes data, using prop drilling basically means we pass data e.g user={user} from components to components.
+Now the way to solve this is to use context api, here we can create everything into a page and each of the components imports it and uses it. this thereby makes things easy, maintainable and efficient.
+
+2. 
