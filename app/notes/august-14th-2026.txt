@@ -1,0 +1,1 @@
+today i learnt about File-based routing — a file at app/blog/page.tsx automatically becomes the route /blog, no router config needed.
